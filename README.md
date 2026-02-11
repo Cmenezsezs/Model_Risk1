@@ -29,7 +29,6 @@ Ao executar o script, o painel comparativo revela insights críticos sobre o *tr
 ### 3. Conclusão Técnica
 Para motores de decisão de crédito onde a explicabilidade e a calibração precisa da PD são mandatórias (ex: Basileia, IFRS 9), a **Regressão Logística** permanece um benchmark robusto. O **XGBoost** requer etapas adicionais de calibração (ex: *Isotonic Regression* ou *Platt Scaling*) para ser seguro em produção.
 
-> **Nota de Pesquisa:** Este comportamento justifica o estudo de abordagens híbridas como **GAMs (Generalized Additive Models)**, que buscam a flexibilidade não-linear das árvores mantendo a interpretabilidade e suavidade da regressão.
 
 ##  Tecnologias Utilizadas
 
